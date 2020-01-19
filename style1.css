@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(4.jpg);
+    background: url(login.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -21,8 +21,8 @@ body{
 }
 
 .avatar{
-    width: 100px;
-    height: 100px;
+    width: 155px;
+    height: 155px;
     border-radius: 50%;
     position: absolute;
     top: -50px;
@@ -93,4 +93,13 @@ h2{
 	font-size:50px;
 	display:none;
 	background-color:black;
+}
+
+
+.img{
+
+    
+  opacity: 0.5;
+
+
 }
