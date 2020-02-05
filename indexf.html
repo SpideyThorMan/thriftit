@@ -1,0 +1,264 @@
+<html>
+  <head>
+  	<title> Home </title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ 
+
+  </head>
+
+
+  <body
+  <header>
+  	<div class="bgimg">
+  		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  			<div class="container">
+  				<a href="" class="navbar-brand text-warning font-width-bold">THRIFT IT</a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                <span class="nabar-toggler-icon"> </span>
+
+  				 </button>
+  				 <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+  				 	<ul class="navbar-nav ml-auto">
+  				 		<li class="nav-item">
+  				 			<a href=""class="nav-link text-white"> HOME </a>
+  				 		</li>
+
+  				 		<li class="nav-item">
+  				 			<a href=""class="nav-link text-white"> LOGIN/REGISTER  </a>
+  				 		</li>
+
+  				 		<li class="nav-item">
+  				 			<a href=""class="nav-link text-white"> ITEMS</a>
+  				 		</li>
+
+  				 		<li class="nav-item">
+  				 			<a href=""class="nav-link text-white"> CONTACT </a>
+  				 		</li>
+  				 	
+                         <form class="form-inline">
+                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                       </ul>
+                      </div>
+                  </div>
+  		</nav>
+
+  		<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active mb-5">
+      <img src="pin.jpg" alt=" Welcome To Our Site!" width="1100" height="500">
+      <div class="carousel-caption container text-center text-white hearderset">
+  			<h2> Welcome To Our Site!</h2>
+  			<h1>HAVE A GREAT DAY AHEAD</h1>
+       </div>
+    </div>
+
+    <div class="carousel-item mb-5">
+      <img src="pin2.jpg" alt=" Welcome To Our Site!" width="1100" height="500">
+      <div class="carousel-caption container text-center text-white hearderset">
+  			<h2> Welcome To Our Site!</h2>
+  			<h1>HAVE A GREAT DAY AHEAD</h1>
+       </div>
+    </div>
+    <div class="carousel-item mb-5 ">
+      <img src="pin3.jpg" alt=" Welcome To Our Site!" width="1100" height="500">
+      <div class="carousel-caption container text-center text-white hearderset">
+  			<h2> Welcome To Our Site!</h2>
+  			<h1>HAVE A GREAT DAY AHEAD</h1>
+       </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--login/Register-->
+    <section class="bg-warning ">
+  	<article class="py-5 " >
+  		<div >
+  		    <h3 class="display-4 text-center" >Want to join ?</h3> 
+  		   <p class="text-center">You can now easily buy second-hand products online</p>
+  		    <!-- Button to Open the Modal -->
+                     <div class=" text-center">
+					 <button type="button " class="btn btn-danger " data-toggle="modal" data-target="#myModal">
+                     REGISTER
+                      </button>
+					 <div class="modal " id="myModal">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+
+					      <!-- Modal Header -->
+					      <div class="modal-header">
+					        <h4 class="modal-title">Register</h4>
+					        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					      </div>
+
+					      <!-- Modal body -->
+					      <div class="modal-body">
+
+					      	<form action="/action_page.php">
+				             	     <div class="form-group">
+									    <label for="name">User Id:</label>
+									    <input type="name" class="form-control" placeholder="Enter User Id" id="name">
+									  </div>
+									   <div class="form-group ">
+										    <label for="email">Email address:</label>
+										    <input type="email" class="form-control" placeholder="Enter email" id="email">
+										  </div>
+									  
+									  <div class="form-group ">
+									    <label for="pwd">Password:</label>
+									    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+									  </div>
+									  <div class="form-group form-check ">
+									    <label class="form-check-label">
+									      <input class="form-check-input" type="checkbox"> I agree all the terms and conditions
+									    </label>
+									  </div>
+									  <button type="submit" class="btn btn-warning">Submit</button>
+									</form>
+					
+					       
+					      </div>
+
+					      <!-- Modal footer -->
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-danger" data-dismiss="modal">Sign UP</button>
+					      </div>
+					  </div>
+					  
+     
+            
+
+
+
+  	</article>
+  </section>
+
+
+
+<!--Itemsssssssss--------->
+<section class="container-fluid ouritems text-center">
+  <h1>ITEMS</h1>
+  <p>We have following items </p>
+ <div class="row row-setting ">
+ 	<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+ 			<div class="imgsetting d-block m-auto bg-warning">
+ 		      <i class="fa fa-motorcycle fa-3x text-white"></i>
+ 		   </div>
+ 		   <h2>Sports & Fitness</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+ 			<div class="imgsetting d-block m-auto bg-warning">
+ 				<i class="fa fa-music fa-3x text-white"></i>
+ 		   </div>
+ 		     <h2>Musical Instrument</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+
+ 		   <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+ 		   <div class="imgsetting d-block m-auto bg-warning">
+ 			<i class="fa fa-phone fa-3x text-white"></i>
+ 		   </div>
+ 		     <h2>Phone & Appliance</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+ </div>
+
+
+  <div class="row row-setting">
+ 	<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+ 			<div class="imgsetting d-block m-auto bg-warning">
+ 		      <i class="fa fa-database fa-3x text-white"></i>
+ 		   </div>
+ 		   <h2>Funiture & Appliances</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+ 			<div class="imgsetting d-block m-auto bg-warning">
+ 				<i class="fa fa-headphones fa-3x text-white"></i>
+ 		   </div>
+ 		     <h2>Electronics & Appliances</h2>
+ 		   <p>spoj</p>
+ 		</div>
+
+ 		   <div class=" col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+ 		   <div class="imgsetting d-block m-auto bg-warning">
+ 			<i class="fa fa-star-o fa-3x text-white"></i>
+ 		   </div>
+ 		     <h2>Fashion</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+ </div>
+
+  <div class="row row-setting mb-5">
+ 	
+            <div class="col-sm-6  d-block m-auto">
+ 			<div class="imgsetting d-block m-auto bg-warning">
+ 				<i class="fa fa-book fa-3x text-white"></i>
+ 		   </div>
+ 		     <h2>Education</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+
+ 		   <div class="col-sm-6   d-block m-auto">
+ 		   <div class="imgsetting d-block m-auto bg-warning">
+ 			<i class="fa fa-search-plus fa-3x text-white"></i>
+ 		   </div>
+ 		     <h2>Extras</h2>
+ 		   <p>Sports for</p>
+ 		</div>
+ </div>
+
+
+  <section class="bg-warning" >
+  	<article class="py-5 text-center" >
+  		<div >
+  		   <h3 class="display-4" >+977 9765432135</h3>
+  		   <p> If you want best service call us now.</p>
+  		    <button class="btn btn-danger" >Contact now</button>
+  	    </div>
+  	</article>
+  </section>
+ </section>
+ 
+  
+    
+   <!-- <footer class="footer">
+	<p class=" text-center"> Copyright  2020,THRIFT IT</p>
+	</footer> !-->
+  </body>
+</html>
