@@ -13,10 +13,10 @@ ul li {
     width:250px;
     height:40px;
     background-color:rgb(228, 245, 245);
-    opacity: .9;
+    opacity: .7;
     margin-right:10px;
     line-height:40px ;
-    color: black;
+    color:black;
     text-align: center;
     font-size:30px ;
     position:relative;
@@ -29,12 +29,17 @@ ul li a{
 
 }
 ul li:hover{
-     background-color: rgba(121, 117, 117, 0.123);
+     background-color: rgb(141, 140, 138);
 }
 ul ul{
     display: none;
+    list-style: circle;
+}
+ul ul li{
+    list-style: circle;
 }
 ul li:hover > ul{
+    list-style: circle;
     display: block;
     color: grey;
 }
@@ -44,11 +49,18 @@ ul ul ul{
     position:absolute;
     color: grey;
 }
-.search{
+box{
+    margin: auto;
+    opacity:.7;
     float:right;
+    color: black;
+    font-size: 20px;
+    padding: 1px;
+}
+.search{
+    float:center;
         color:black;
         height:40px;
-      
      font-size: 20px;
         text-align: center;    
 }
@@ -58,7 +70,7 @@ ul ul ul{
     background-color:whitesmoke ;
     opacity: .9;
     height: 30px;
-    width:300px;
+    width:400px;
     color:black;
     font-size: 20px;
    border: 1px thin black;
@@ -134,4 +146,3 @@ ul ul ul{
     padding:0;
    
 }
-
